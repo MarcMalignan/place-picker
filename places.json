@@ -1,0 +1,29 @@
+[
+  { "name": "ATA (pitas)", "types": ["sandwich", "à emporter"] },
+  {
+    "name": "Benchy (sandos) 🇯🇵",
+    "types": ["asiatique", "japonais", "sandwich", "à emporter"]
+  },
+  { "name": "Bon Marché (pizzas) 🍕", "types": ["italien", "pizza"] },
+  { "name": "Burgers Alléno 🍔", "types": ["burger", "terrasse"] },
+  {
+    "name": "Cojean",
+    "types": ["salade", "sandwich", "healthy", "à emporter"]
+  },
+  { "name": "Coutume", "types": ["café", "healthy"] },
+  { "name": "Crying Tiger 🇹🇭", "types": ["asiatique", "thaïlandais"] },
+  { "name": "Garçon !", "types": ["bistro"] },
+  { "name": "Gemini 🍕🍝", "types": ["italien", "pâtes", "pizza"] },
+  { "name": "Justin", "types": ["sandwich", "à emporter"] },
+  { "name": "La Démocratie", "types": ["bistro", "luxe"] },
+  { "name": "Lucky day", "types": ["asiatique", "bubble tea"] },
+  { "name": "Marzo 🍕", "types": ["italien", "pizza"] },
+  { "name": "Mersea 🐟", "types": ["bistro", "poisson"] },
+  { "name": "Noli", "types": ["asiatique", "bubble tea"] },
+  { "name": "O'Cocher 🍔", "types": ["bistro", "burger"] },
+  { "name": "Osaba (basque)", "types": ["tapas"] },
+  { "name": "Pied de fouet", "types": ["bistro"] },
+  { "name": "Pierre Hermé", "types": ["luxe", "desserts"] },
+  { "name": "Vietnamien Dupin", "types": ["asiatique"] },
+  { "name": "Yamaya (onigiris) 🇯🇵", "types": ["asiatique", "japonais"] }
+]
