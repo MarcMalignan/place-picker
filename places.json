@@ -1,25 +1,137 @@
 [
-  { "name": "ATA (pitas)", "types": ["sandwich", "à emporter"] },
-  { "name": "Benchy (sandos) 🇯🇵", "types": ["asiatique", "japonais", "sandwich", "à emporter"] },
-  { "name": "Bon Marché (pizzas) 🍕", "types": ["italien", "pizza"] },
-  { "name": "Burgers Alléno 🍔", "types": ["burger", "terrasse"] },
-  { "name": "Cojean", "types": ["salade", "sandwich", "healthy", "à emporter"] },
-  { "name": "Coutume", "types": ["café", "healthy"] },
-  { "name": "Crying Tiger 🇹🇭", "types": ["asiatique", "thaïlandais"] },
-  { "name": "Garçon !", "types": ["bistro"] },
-  { "name": "Gemini 🍕🍝", "types": ["italien", "pâtes", "pizza"] },
-  { "name": "Evi Evane (traiteur) 🇬🇷", "types": ["grec", "traiteur", "à emporter"] },
-  { "name": "Justin", "types": ["sandwich", "à emporter"] },
-  { "name": "La Démocratie", "types": ["bistro", "luxe"] },
-  { "name": "Lucky day", "types": ["asiatique", "bubble tea"] },
-  { "name": "Marzo 🍕", "types": ["italien", "pizza"] },
-  { "name": "Mersea 🐟", "types": ["bistro", "poisson"] },
-  { "name": "Noli", "types": ["asiatique", "bubble tea"] },
-  { "name": "O'Cocher 🍔", "types": ["bistro", "burger"] },
-  { "name": "Osaba (basque)", "types": ["tapas"] },
-  { "name": "Pastavino", "types": ["italien", "pâtes", "sandwich", "traiteur", "à emporter"] },
-  { "name": "Pied de fouet", "types": ["bistro"] },
-  { "name": "Pierre Hermé", "types": ["luxe", "desserts"] },
-  { "name": "Vietnamien Dupin", "types": ["asiatique"] },
-  { "name": "Yamaya (onigiris) 🇯🇵", "types": ["asiatique", "japonais"] }
+  {
+    "name": "Anima",
+    "link": "https://goo.gl/maps/6hFkbSxE3fJVqexc8",
+    "types": ["italien 🇮🇹", "pizza 🍕", "pâtes 🍝", "terrasse ☀️"]
+  },
+  {
+    "name": "ATA (pitas)",
+    "link": "https://goo.gl/maps/fuSvj18aeKzQB3PTA",
+    "types": ["sandwich 🥪", "à emporter 🛍️"]
+  },
+  {
+    "name": "Au pied de fouet",
+    "link": "https://goo.gl/maps/8xwuHpJSCLXG1xSf8",
+    "types": ["bistro 🇫🇷", "terrasse ☀️"]
+  },
+  {
+    "name": "Benchy (sandos)",
+    "link": "https://goo.gl/maps/pGt4hFgbvXAgT9D39",
+    "types": ["asiatique 🥢", "japonais 🇯🇵", "sandwich 🥪", "à emporter 🛍️"]
+  },
+  {
+    "name": "Bon Marché",
+    "link": "https://goo.gl/maps/shsuZ2d9oF4BjZ4L6",
+    "types": ["italien 🇮🇹", "pizza 🍕", "sandwich 🥪", "à emporter 🛍️"]
+  },
+  {
+    "name": "Burgers Alléno",
+    "link": "https://goo.gl/maps/uzhK1uX6Lyquv5rL6",
+    "types": ["burger 🍔", "terrasse ☀️"]
+  },
+  {
+    "name": "Cojean",
+    "link": "https://g.page/cojean-raspail",
+    "types": ["sandwich 🥪", "healthy 🥗", "à emporter 🛍️"]
+  },
+  {
+    "name": "Coutume",
+    "link": "https://g.page/coutumebabylone",
+    "types": ["café ☕", "healthy 🥗"]
+  },
+  {
+    "name": "Crying Tiger",
+    "link": "https://goo.gl/maps/72o1yof1Ex8GeBbJ6",
+    "types": ["asiatique 🥢", "thaïlandais 🇹🇭", "terrasse ☀️"]
+  },
+  {
+    "name": "Easy vie",
+    "link": "https://g.page/easy-vie",
+    "types": ["asiatique 🥢", "traiteur 🧑‍🍳", "bubble tea 🍵"]
+  },
+  {
+    "name": "Garçon !",
+    "link": "https://g.page/garcon_restaurant",
+    "types": ["bistro 🇫🇷", "terrasse ☀️"]
+  },
+  {
+    "name": "Grace Café",
+    "link": "https://goo.gl/maps/46fawDyDE7mehTFe6",
+    "types": ["café ☕", "dessert 🍰", "terrasse ☀️"]
+  },
+  {
+    "name": "Gemini",
+    "link": "https://goo.gl/maps/NL1cftnorBQCjNyu6",
+    "types": ["italien 🇮🇹", "pâtes 🍝", "pizza 🍕", "terrasse ☀️"]
+  },
+  {
+    "name": "Evi Evane",
+    "link": "https://goo.gl/maps/bBAzXzjGLhH7fWG46",
+    "types": ["grec 🇬🇷", "traiteur 🧑‍🍳", "à emporter 🛍️"]
+  },
+  {
+    "name": "Justin",
+    "link": "https://goo.gl/maps/NGaEzTjDuUfeVy3X8",
+    "types": ["sandwich 🥪", "à emporter 🛍️"]
+  },
+  {
+    "name": "La Démocratie",
+    "link": "https://g.page/lademocratierestaurant",
+    "types": ["bistro 🇫🇷", "luxe 💸"]
+  },
+  {
+    "name": "Le Petit Lutetia",
+    "link": "https://goo.gl/maps/dcGhfcCazRb1aYtR9",
+    "types": ["bistro 🇫🇷", "luxe 💸", "terrasse ☀️"]
+  },
+  {
+    "name": "Lucky day",
+    "link": "https://goo.gl/maps/3tJQBCuAKdcypUPx9",
+    "types": ["asiatique 🥢", "thaïlandais 🇹🇭", "bubble tea 🍵"]
+  },
+  {
+    "name": "Marzo",
+    "link": "https://goo.gl/maps/vJqsbvpuNmpJiHrJ6",
+    "types": ["italien 🇮🇹", "pizza 🍕"]
+  },
+  {
+    "name": "Mersea",
+    "link": "https://g.page/mersea-beaupassage",
+    "types": ["bistro 🇫🇷", "poisson 🐟", "terrasse ☀️"]
+  },
+  {
+    "name": "Noli",
+    "link": "https://goo.gl/maps/xLC15e9V1JSwdB9n8",
+    "types": ["asiatique 🥢", "bubble tea 🍵"]
+  },
+  {
+    "name": "O'Cocher",
+    "link": "https://g.page/OCocher75007",
+    "types": ["bistro 🇫🇷", "burger 🍔"]
+  },
+  {
+    "name": "Osaba (basque)",
+    "link": "https://goo.gl/maps/8XuCE6V1pvtnuFiz6",
+    "types": ["tapas 🤏", "terrasse ☀️"]
+  },
+  {
+    "name": "Pastavino",
+    "link": "https://goo.gl/maps/GDANuHG5ft5MUw6t9",
+    "types": ["italien 🇮🇹", "pâtes 🍝", "sandwich 🥪", "traiteur 🧑‍🍳", "à emporter 🛍️"]
+  },
+  {
+    "name": "Pierre Hermé",
+    "link": "https://goo.gl/maps/hmxCeVJzKZXxXfFB7",
+    "types": ["luxe 💸", "dessert 🍰", "terrasse ☀️"]
+  },
+  {
+    "name": "Vietnamien Dupin",
+    "link": "https://goo.gl/maps/BiAR8kCz2VgSXDAm7",
+    "types": ["asiatique 🥢"]
+  },
+  {
+    "name": "Yamaya",
+    "link": "https://g.page/yamayaparis?share",
+    "types": ["asiatique 🥢", "japonais 🇯🇵", "à emporter 🛍️"]
+  }
 ]

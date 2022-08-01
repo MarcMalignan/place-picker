@@ -6,8 +6,8 @@ const getPlaces = async () => {
     const response = await fetch("./places.json");
     places = await response.json();
     places.sort((a, b) => {
-      if (a.name < b.name) return -1;
-      if (a.name > b.name) return 1;
+      if (a.name.toLowerCase() < b.name.toLowerCase()) return -1;
+      if (a.name.toLowerCase() > b.name.toLowerCase()) return 1;
       return 0;
     });
   } catch (error) {
@@ -18,32 +18,31 @@ const getPlaces = async () => {
 
 const select = (places) => {
   const index = getRandomInt(places.length);
-  document
-    .querySelectorAll(".card.selected")
-    .forEach((card) => card.classList.remove("selected"));
+  document.querySelectorAll(".card.selected").forEach((card) => card.classList.remove("selected"));
   document.querySelectorAll(".card")[index].classList.add("selected");
 };
 
 const renderCards = (places, filters = []) => {
   let html = ``;
   const filteredPlaces = places.filter(
-    (place) =>
-      !filters.length || place.types.some((type) => filters.includes(type))
+    (place) => !filters.length || place.types.some((type) => filters.includes(type))
   );
 
   filteredPlaces.forEach((place) => {
     html += `
       <div class="card-container">
-        <div class="card">${place.name}</div>
+        <a href="${place.link}" target="_blank">
+          <div class="card">
+            ${place.name}
+            </div>
+        </a>
       </div>`;
   });
   document.getElementById("cards").innerHTML = html;
 
   const selectButton = document.getElementById("select");
   selectButton.outerHTML = selectButton.outerHTML; // remove events
-  document
-    .getElementById("select")
-    .addEventListener("click", () => select(filteredPlaces));
+  document.getElementById("select").addEventListener("click", () => select(filteredPlaces));
 };
 
 const renderFilters = (places, addFilter, removeFilter) => {
