@@ -77,6 +77,11 @@ h1 {
   color: inherit;
 }
 
+.emojis {
+  margin-top: 5px;
+  font-size: 1.1rem;
+}
+
 #filters {
   display: flex;
   flex-wrap: wrap;

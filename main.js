@@ -34,7 +34,10 @@ const renderCards = (places, filters = []) => {
         <a href="${place.link}" target="_blank">
           <div class="card">
             ${place.name}
+            <div class="emojis">
+              ${place.types.map((type) => /(.*) (.*)/g.exec(type)[2]).join("")}
             </div>
+          </div>
         </a>
       </div>`;
   });
