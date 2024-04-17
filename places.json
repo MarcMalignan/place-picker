@@ -15,9 +15,14 @@
     "types": ["bistro 🇫🇷", "terrasse ☀️", "nico approved 👨‍💻"]
   },
   {
-    "name": "Benchy (sandos)",
+    "name": "Benchy",
     "link": "https://goo.gl/maps/pGt4hFgbvXAgT9D39",
-    "types": ["asiatique 🥢", "japonais 🇯🇵", "sandwich 🥪", "healthy 🥗", "à emporter 🛍️"]
+    "types": ["asiatique 🥢", "japonais 🇯🇵", "sandwich 🥪", "healthy 🌿", "à emporter 🛍️"]
+  },
+  {
+    "name": "Bistro du Passage (Beaupassage)",
+    "link": "https://maps.app.goo.gl/Bur9dpMSDCnmX9aX6",
+    "types": ["bistro 🇫🇷", "viande 🥩", "terrasse ☀️", "luxe 💸"]
   },
   {
     "name": "Bon Marché",
@@ -25,19 +30,24 @@
     "types": ["italien 🇮🇹", "pizza 🍕", "sandwich 🥪", "à emporter 🛍️"]
   },
   {
-    "name": "Burgers Alléno",
+    "name": "Burgers Alléno (Beaupassage)",
     "link": "https://goo.gl/maps/uzhK1uX6Lyquv5rL6",
     "types": ["burger 🍔", "terrasse ☀️"]
   },
   {
+    "name": "Certified Café (Beaupassage)",
+    "link": "https://maps.app.goo.gl/NXfPgf1eLjNyEf9g9",
+    "types": ["café ☕", "dessert 🍰", "à emporter 🛍️"]
+  },
+  {
     "name": "Cojean",
     "link": "https://g.page/cojean-raspail",
-    "types": ["sandwich 🥪", "healthy 🥗", "à emporter 🛍️"]
+    "types": ["sandwich 🥪", "healthy 🌿", "à emporter 🛍️"]
   },
   {
     "name": "Coutume",
     "link": "https://g.page/coutumebabylone",
-    "types": ["café ☕", "healthy 🥗"]
+    "types": ["café ☕", "healthy 🌿", "à emporter 🛍️"]
   },
   {
     "name": "Crying Tiger",
@@ -47,7 +57,7 @@
   {
     "name": "Easy vie",
     "link": "https://g.page/easy-vie",
-    "types": ["asiatique 🥢", "traiteur 🧑‍🍳", "bubble tea 🍵"]
+    "types": ["asiatique 🥢", "traiteur 🧑‍🍳", "bubble tea 🍵", "à emporter 🛍️"]
   },
   {
     "name": "Garçon !",
@@ -57,7 +67,7 @@
   {
     "name": "Grace Café",
     "link": "https://goo.gl/maps/46fawDyDE7mehTFe6",
-    "types": ["café ☕", "dessert 🍰", "terrasse ☀️"]
+    "types": ["café ☕", "dessert 🍰", "terrasse ☀️", "à emporter 🛍️"]
   },
   {
     "name": "Gemini",
@@ -90,17 +100,12 @@
     "types": ["bistro 🇫🇷", "luxe 💸", "terrasse ☀️", "nico approved 👨‍💻"]
   },
   {
-    "name": "Lucky day",
-    "link": "https://goo.gl/maps/3tJQBCuAKdcypUPx9",
-    "types": ["asiatique 🥢", "thaïlandais 🇹🇭", "bubble tea 🍵"]
-  },
-  {
     "name": "Marzo",
     "link": "https://goo.gl/maps/vJqsbvpuNmpJiHrJ6",
     "types": ["italien 🇮🇹", "pizza 🍕", "nico approved 👨‍💻"]
   },
   {
-    "name": "Mersea",
+    "name": "Mersea (Beaupassage)",
     "link": "https://g.page/mersea-beaupassage",
     "types": ["bistro 🇫🇷", "poisson 🐟", "terrasse ☀️"]
   },
@@ -112,7 +117,7 @@
   {
     "name": "Noli",
     "link": "https://goo.gl/maps/xLC15e9V1JSwdB9n8",
-    "types": ["asiatique 🥢", "bubble tea 🍵"]
+    "types": ["asiatique 🥢", "burger 🍔", "bubble tea 🍵", "à emporter 🛍️"]
   },
   {
     "name": "O'Cocher",
@@ -130,9 +135,14 @@
     "types": ["italien 🇮🇹", "pâtes 🍝", "sandwich 🥪", "traiteur 🧑‍🍳", "à emporter 🛍️"]
   },
   {
-    "name": "Pierre Hermé",
+    "name": "Pierre Hermé (Beaupassage)",
     "link": "https://goo.gl/maps/hmxCeVJzKZXxXfFB7",
-    "types": ["luxe 💸", "dessert 🍰", "terrasse ☀️"]
+    "types": ["bistro 🇫🇷", "luxe 💸", "dessert 🍰", "terrasse ☀️"]
+  },
+  {
+    "name": "Pierre Sang",
+    "link": "https://maps.app.goo.gl/rwKtFdRiXTVx9LWYA",
+    "types": ["asiatique 🥢", "coréen 🇰🇷", "à emporter 🛍️"]
   },
   {
     "name": "Pizza di Gio",
@@ -140,18 +150,38 @@
     "types": ["pizza 🍕", "italien 🇮🇹"]
   },
   {
+    "name": "Poké Hop",
+    "link": "https://maps.app.goo.gl/WnG8CbfYzSpZ3K879",
+    "types": ["poké 🥗", "noodles 🍜", "à emporter 🛍️"]
+  },
+  {
+    "name": "Shifumi",
+    "link": "https://maps.app.goo.gl/qHhar9bTevu5sf2s9",
+    "types": ["asiatique 🥢", "noodles 🍜", "à emporter 🛍️"]
+  },
+  {
     "name": "Table de MEE",
     "link": "https://goo.gl/maps/vtDaQAuTyzTS6B7A6",
     "types": ["asiatique 🥢", "coréen 🇰🇷"]
   },
   {
+    "name": "Ventura (Beaupassage)",
+    "link": "https://maps.app.goo.gl/AkRSSfeDy9QbUsr47",
+    "types": ["italien 🇮🇹", "pâtes 🍝", "terrasse ☀️", "à emporter 🛍️"]
+  },
+  {
     "name": "Vietnamien Dupin",
     "link": "https://goo.gl/maps/BiAR8kCz2VgSXDAm7",
-    "types": ["asiatique 🥢"]
+    "types": ["asiatique 🥢", "à emporter 🛍️"]
   },
   {
     "name": "Yamaya",
     "link": "https://g.page/yamayaparis?share",
     "types": ["asiatique 🥢", "japonais 🇯🇵", "à emporter 🛍️"]
+  },
+  {
+    "name": "Yibol",
+    "link": "https://maps.app.goo.gl/b4MPgf8zbN4wWy429",
+    "types": ["asiatique 🥢", "noodles 🍜", "à emporter 🛍️"]
   }
 ]
